@@ -643,14 +643,18 @@ function parse(content, pathToFile, cb) {
 
   function resolveTileSet(unresolvedTileSet, cb) {
     var target = path.join(pathToDir, unresolvedTileSet.source);
-    parseFile(target, function (err, resolvedTileSet) {
-      if (err) {
-        cb(err);
-        return;
-      }
-      resolvedTileSet.mergeTo(unresolvedTileSet);
+    if (fs.existsSync(target)) {
+      parseFile(target, function (err, resolvedTileSet) {
+        if (err) {
+          cb(err);
+          return;
+        }
+        resolvedTileSet.mergeTo(unresolvedTileSet);
+        cb();
+      });
+    } else {
       cb();
-    });
+    }
   }
 
   function resolveLayer(unresolvedLayer) {

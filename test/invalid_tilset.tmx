@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="71">
+ <editorsettings>
+  <export target="." format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" source="does_not_exist.png" />
+ <layer id="1" name="bp_1" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2Xy0oDMRSGw8y8gIJV3CmoXaioG10IVjd27+UFvOy9gG69gKI+gfpOvpJ/mYYeSqURph2Sfh98hJPJ4hxyJjNxDgAAAAAAAAAAqmBKTssZ2ZCr3XFQPCvn6klzZCzIRbkkl+VudxwUr8hmPWmOjH15IPeKni2jnT/UunbN+VbNptxyZX15/red59tat1NzvlUz6fX7/u/0epaX2rr9XCvx/g+pP8X9p/975/+w+lPu/5DvX4r77+ufz4abYv2+/7MAU+l/+89/Ik9dWP1H8tjFfxew//wX8lL+BHgmz138dwHf8+s609aKcvSGxjG/C/7Ms/VsFP+LYz4LJ33/r+S1vJU3Rh+/yXf50Tdv193J+3EnXhEP8lE+yyejjz/ll/zum7frXuTruBMHAAAAAAAAAAAAAAAAgCj5BbBYbHcAQAAA
+  </data>
+ </layer>
+ <layer id="2" name="bp_2" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3VwQnCMBTG8dLkqLhA4wSKm4iD6NWT4AbiBi7gFC7gRW+Cq/jEBoMWJDRazPv/4IO+5JLXR9qiAAAAAAAAQEpHE1fn5mri6tycbLv9HIxlxq6e86HutwrWcjcyz3dQmkfvfk2DWdBvGTxPFfVfvczfKerf9xvOX+P9v/PfPy33X/v/b2k/B/m6tNzXZN/1ARLpSSZB5nLHd5KFba59+t0dOamtfa/Pko1trr3hb473dSvpay0ZFHFx3RwXAAAAAAAAAAAAAPCHbrvMsqkAQAAA
+  </data>
+ </layer>
+ <layer id="3" name="bp_3" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3VzQnCMBjG8dDm7gIeXEBcQDdQcR1B8SzoAIIO4MkF/CieBRdwBN1AwRdMIAQtIrZi8v/BQ8kbCnlKaZUCAAAAAAAA8C0TrdQxJ1P96xMWK5N+9VSpvenpX7cR9G9K/5Z5Bom52lkM/S+SbvrobtOTnHUc/W8v+l8j6d+Wrh3v/bezGPonEX//5tJvlZNF4P0PJn1vPnP2QnYyGXvzpbMXst0bQdgaOXFtSj5XUWof3hdK/6qk4qwH8o8bSYb6+dpal3VAAAAAAAAAAAAAAMDfuwNxPA/OAEAAAA==
+  </data>
+ </layer>
+ <layer id="8" name="bp_4" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3USwrCMBQF0EDrrvwtoG5B3aZ7cA3qWEEcK6gRW+yokyqh5hy4k2TyLiEvBAAAAADgW3ZlCPuOHMrUE/7WOfYrixCqmFkri+J9fsmgf2Mc+65iJsXnLKf+0/rt55n2X9bvv860f9X6+40c+r/2XPP3V60dkMP+u8d+j46EUeoJ+aVtz/uh2/S8h6E5xpxSD5HQNeaWeggAAAAAAAAA/toTou9xHQBAAAA=
+  </data>
+ </layer>
+ <objectgroup id="12" name="environment">
+  <object id="35" type="warp" x="1024" y="1104" width="32" height="16">
+   <properties>
+    <property name="toDirection" type="int" value="1"/>
+    <property name="toLevel" value="tavern"/>
+    <property name="toX" type="int" value="752"/>
+    <property name="toY" type="int" value="240"/>
+   </properties>
+  </object>
+  <object id="48" name="woodstool" type="chair" gid="1533" x="864" y="1048" width="32" height="32"/>
+  <object id="49" name="woodstool" type="chair" gid="1533" x="864" y="1080" width="32" height="32"/>
+  <object id="50" name="woodstool" type="chair" gid="1533" x="1216" y="1048" width="32" height="32"/>
+  <object id="51" name="woodstool" type="chair" gid="1533" x="1216" y="1080" width="32" height="32"/>
+  <object id="52" name="woodstool" type="chair" gid="1533" x="800" y="1016" width="32" height="32"/>
+  <object id="53" name="woodstool" type="chair" gid="1533" x="832" y="1016" width="32" height="32"/>
+  <object id="54" name="woodstool" type="chair" gid="1533" x="992" y="952" width="32" height="32"/>
+  <object id="55" name="woodstool" type="chair" gid="1533" x="1056" y="952" width="32" height="32"/>
+ </objectgroup>
+ <layer id="4" name="ap_1" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3OsQkAAAjAMP8/UZ/RE9wESaB7IwAAAAAAAACAjZzqegIAAAAAAAAAeKsBPaeqagBAAAA=
+  </data>
+ </layer>
+ <objectgroup id="14" name="collisions">
+  <object id="19" type="block" x="736" y="1088" width="288" height="64"/>
+  <object id="20" type="block" x="1056" y="1088" width="288" height="64"/>
+  <object id="21" type="block" x="832" y="544" width="416" height="64"/>
+  <object id="22" type="block" x="896" y="944" width="288" height="32"/>
+  <object id="23" type="block" x="1248" y="928" width="96" height="160"/>
+  <object id="24" type="block" x="1184" y="608" width="64" height="368"/>
+  <object id="25" type="block" x="832" y="608" width="64" height="368"/>
+  <object id="26" type="block" x="736" y="928" width="96" height="48"/>
+  <object id="27" type="block" x="736" y="976" width="64" height="112"/>
+  <object id="28" type="block" x="800" y="1008" width="64" height="80"/>
+  <object id="29" type="block" x="896" y="864" width="288" height="32"/>
+  <object id="30" type="block" x="1024" y="1120" width="32" height="32"/>
+  <object id="31" type="block" x="896" y="896" width="32" height="48"/>
+  <object id="32" type="block" x="928" y="896" width="56" height="16"/>
+  <object id="33" type="block" x="1088" y="896" width="96" height="16"/>
+  <object id="34" type="block" x="1152" y="912" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="15" name="interactable">
+  <object id="46" name="keg" type="heal" gid="1532" x="1248" y="1024" width="32" height="32">
+   <properties>
+    <property name="healAmount" type="int" value="1"/>
+    <property name="interaction" value="grab"/>
+   </properties>
+  </object>
+  <object id="47" name="keg" type="heal" gid="1532" x="1248" y="1056" width="32" height="32">
+   <properties>
+    <property name="healAmount" type="int" value="1"/>
+    <property name="interaction" value="grab"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="16" name="scripts">
+  <object id="65" name="spar" type="spar" x="896" y="608" width="288" height="256">
+   <properties>
+    <property name="isRated" type="bool" value="false"/>
+    <property name="respawn" type="object" value="68"/>
+    <property name="sparrerOneStartPosition" type="object" value="66"/>
+    <property name="sparrerTwoStartPosition" type="object" value="67"/>
+    <property name="startPosition" type="object" value="69"/>
+   </properties>
+   <text wrap="1" color="#ffffff" halign="center" valign="center">Spar</text>
+  </object>
+  <object id="66" name="sparrerOne" type="position" x="912" y="720" width="32" height="32">
+   <properties>
+    <property name="direction" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="67" name="sparrerTwo" type="position" x="1136" y="720" width="32" height="32">
+   <properties>
+    <property name="direction" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="68" type="respawn" x="1024" y="1024" width="32" height="32"/>
+  <object id="69" name="default" type="position" x="1024" y="904" width="32" height="32">
+   <properties>
+    <property name="direction" type="int" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
